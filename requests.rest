@@ -1,0 +1,21 @@
+
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{
+  "username": "yash",
+  "secret": "pass1234"
+}
+
+###
+
+POST http://localhost:3001/signup
+Content-Type: application/json
+
+{
+  "username": "test",
+  "secret": "pass1234",
+  "email": "test@gmail.com",
+  "first_name": "test",
+  "last_name": "tttttt"
+}
